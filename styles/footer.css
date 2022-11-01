@@ -1,0 +1,23 @@
+@import url(https://fonts.google.com/specimen/Raleway?query=ral);
+footer {
+    background-color: black;
+    width: 100%;
+}
+.conteiner-row {
+    height: 164px;
+}
+.conteiner-row__logo {
+    display: flex;
+    justify-content: center;
+}
+.conteiner-row__logo-image {
+    margin-right: 40px;
+    padding: 32px 0 39px;
+}
+.conteiner-row__logo-text {
+    text-align: center;
+    color: #FFFFFF80;
+    font-size: 18px;
+    line-height: 21.13px;
+    font-weight: 400px;
+}
