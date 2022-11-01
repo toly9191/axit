@@ -1,0 +1,40 @@
+@import url(https://fonts.google.com/specimen/Raleway?query=ral);
+.social-media {
+    width: 100%;
+    background-color: #F8EFEF;
+    
+}
+.social-media__box {
+    display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+
+.social-media__text {
+    width: 470px;
+    height: 102px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.social-media__text-title {
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 20px;
+}
+.social-media__text-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    padding-bottom: 20px;
+    
+}
+.social-media__logo {
+    display: flex;
+
+
+}

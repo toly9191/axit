@@ -1,0 +1,51 @@
+@import url(https://fonts.google.com/specimen/Raleway?query=ral);
+.design-image {
+background-image: url(../images/design.svg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+background-attachment: scroll;
+width: 100%;
+height: 442px;
+}
+.design-background {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 442px;
+}
+.design-text {
+    text-align: center;
+    
+}
+.design-text__title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42.26px;
+    color: #fff;
+    padding-top: 100px;
+}
+.design-text__separator {
+    width: 170px;
+    border-bottom: 1px solid#fff;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.design-text__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.13px;
+    color: #fff;
+    padding: 40px 0 53px;
+}
+.design-text__button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24.51px;
+    width: 370px;
+    height: 58px;
+    color: #fff;
+    background:rgba(0, 0, 0, 0);
+    border: 2px solid#fff;
+    margin-top: 20px;
+}

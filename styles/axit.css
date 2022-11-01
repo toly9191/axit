@@ -1,0 +1,22 @@
+@import url(https://fonts.google.com/?query=Open+Sans);
+.header {
+width: 100%;
+background-color: #000;
+}
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-main__nav {
+    color: #fff;
+    display: flex;
+}
+.header-main__item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 600;
+    margin-right: 60px;
+}
+

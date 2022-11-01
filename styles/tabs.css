@@ -1,26 +1,43 @@
 .tabs {
+    margin-top: 50px;
+}
+.conteiner-tabs {
+    width: 1170px;
+    margin: 0 auto;
+}
+.tabs__title {
     text-align: center;
     margin-top: 50px;
-    
+    text-transform: uppercase;
+    line-height: 19.27px;
+    margin-right: 20px;
+   
+    font-size: 14px;
+    font-weight: 400;
 }
 .tabs1 {
-    border-left: 1px solid#C6CBCD;
-    border-top: 1px solid#C6CBCD;
-    border-right: 1px solid#C6CBCD;
+    border: 1px solid#C6CBCD;
+    border-bottom: none;
     width: 200px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     display: inline-block;
-
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-family: 'Open Sans', sans-serif;
 }
 .tabs2 {
 border-bottom: 1px solid#C6CBCD;
 width: 200px;
 display: inline-block;
 margin: -4px;
+padding: 10px 0;
+font-family: 'Open Sans', sans-serif;
+
 }
 .special {
 padding-right: 555px;
+
 }
 .about {
     border-left: 1px solid#C6CBCD;
@@ -30,6 +47,7 @@ padding-right: 555px;
 .about-title__title {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
+    font-weight: 700;
     line-height: 40px;
     margin: 47px 0 47px 100px;
     
@@ -39,6 +57,7 @@ padding-right: 555px;
     font-size: 18px;
     margin: 47px 0 47px 100px;
     line-height: 21px;
+    text-align: left;
     
 
 }
@@ -48,22 +67,24 @@ padding-right: 555px;
     text-align: center;
     vertical-align: top;
 }
+.tabs-image {
+    padding-left: 110px;
+}
 .about__image {
     width: 49%;
     display: inline-block;
     
 }
 .about-title__button {
+    font-family: 'Open Sans', sans-serif;
     line-height: 10px;
     width: 270px;
     height: 35px;
-    background: #EC7979;
+    background-color:#EC7979 ;
     text-align: center;
     color: #fff;
     padding-top: 30px;
-    margin: 0 100px auto;
+    margin: 0 100px 54px;
     font-size: 18px;
-}
-img {
-    padding-left: 110px;
+    font-weight: 600px;
 }
